@@ -1,0 +1,559 @@
+/*Navigation part*/
+body{
+	margin: 0;
+}
+#navigation{
+	background-color: #f68933;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	vertical-align: middle;
+	z-index: 110;
+}
+#nav-bar{
+	width: 90%;
+	height: 125px;
+	margin-left: 20px;
+
+}
+#menu-bar:hover{
+	width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; 
+    transition: width 2s;
+}
+
+#nav-image1{
+	width: 178px;
+	height: 76px;
+	float: left;
+	padding: 20px 20px 20px 60px;
+}
+#menu{
+	float: left;
+	margin-left: 200px;
+	margin-top: 55px;
+}
+.menu-bar{
+	position: relative;
+	text-decoration: none;
+	font-size: 23px;
+	color: white;
+	margin: 40px 20px 10px 20px;
+}
+/*HOME part*/
+#Simple{
+	background-image: url("../Images/access-black-and-white.jpg");
+	width: 100%;
+	height: 700px;
+	align-items: middle;
+	margin-top: -100px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#simpleText{
+	color: #fff;
+}
+
+#link-image{
+	width: 100%;
+}
+#sisManSym{
+	display: inline-block;
+}
+.SignManSys1{
+	width: 48%;
+	float: left;
+}
+.click{
+	border: solid 2px;
+	border-radius: 40px;
+	text-decoration: none;
+	border-color: #f68933;
+	padding: 15px 15px 15px 15px;
+	color: #f68933;
+	padding: 10px;
+	margin-left: 60px;
+	font-style: bold;
+
+}
+.click:hover{
+	background-color: #f68933;
+	color: white;
+}
+.home-h1-text{
+	font-family: Montserrat, sans-serif;
+	font-size: 35px;
+	color: #818286;
+	text-align: left;
+	margin-left: 70px;
+
+}
+.home-p-text{
+	font-family: Ubuntu, sans-serif;
+	font-size: 16px;
+	color: #818286;
+	line-height: 25px;
+	margin-left: 70px;
+}
+#experience{
+	background-image: url("../Images/access-experience-matters.jpg");
+	background-position: 50% 128px;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+.experience-h2{
+	color: white;
+	font-size: 40px;
+	font-family: Montserrat;
+	line-height: 50px;
+	letter-spacing: 0px;
+	text-align: center;
+	font-weight: 700;
+
+}
+#experience-p{
+	color: #fff;
+	font-size: 20px;
+	font-family: Montserrat,sans-serif;
+	text-align: center;
+
+}
+#experience-a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+}
+.drop{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+    min-width: 160px;
+    
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+
+#example{
+	display: inline-block;
+	width: 90%;
+	margin: 60px auto;
+	margin-left: 60px;
+
+}
+#navThree{
+	width: 28%;
+	float: left;
+	margin: 10px;
+	margin-top: 10px;
+}
+#navThree a{
+	color: #818286;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-size: 20px;
+
+
+}
+#navThree p{
+	color: #818286;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 25px; 
+}
+
+#ComSiSol{
+	width: 68%;
+	float: left;
+	margin: 10px;
+}
+#ComSiSol h2{
+	color: #818286;
+	font-size: 32px;
+	line-height: 1.34em;
+	letter-spacing: -1.8px;
+	font-weight: 700;
+	font-family: Montserrat, sans-serif;
+}
+#ComSiSol p{
+	color: #818286;
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 400;
+
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	background-image: url(../Images/Access-Testimonials-Background-Image-copy-1.jpg);
+  	max-width: 100%;
+  	height: 350px;
+  	position: relative;
+  	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+.text {
+	float: right;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+  	position: absolute;
+  	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  	cursor:pointer;
+  	height: 15px;
+  	width: 15px;
+  	margin: 0 2px;
+  	background-color: #bbb;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 1.5s;
+  	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}
+
+@keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}
+#Galeries{
+	margin-top: 30px;
+}
+#OurGalleries-h2{
+	font-family: Montserrat;
+	font-size: 78px;
+	color: #818286;
+	text-align: center;
+}
+.SolutionImages{
+	width: 30%;
+	float: left;
+	margin: 10px;
+
+}
+
+
+.slide-element{
+	display: none;
+}
+.slide-element img{
+	float: left;
+	width: 25%
+}
+.slide-element div{
+	float: left;
+	width: 73%;
+}
+	
+/*Footer*/
+footer{
+	background-color: #818286;
+	width: 100%;
+	height: 500px;
+}
+#footer{
+	display: inline-block;
+	width: 90%;
+	margin: 60px 70px 40px 70px;
+}
+#footer-img{
+	width: 177px;
+	height: 75px;
+}
+.foot{
+	width: 21%;
+	height: 253px;
+	float: left;
+	padding: 45px 20px 45px 20px;
+}
+#footer-img2{
+	width: 100%;
+}
+.footer-header{
+	font-size: 20px;
+	color: white;
+}
+hr{
+	margin-bottom: 60px;
+}
+
+
+
+
+
+/*CONTACT part*/
+
+#contact-background-image{
+	background-image: url("../Images/gest.jpg");
+	width: 100%;
+	height: 300px;
+	margin-top: -20px;
+}
+#contact-background-image h1{
+	color: #fff;
+	font-size: 45px;
+	line-height: 1em;
+	letter-spacing: -4px;
+}
+#contact-p{
+	font-family: Montserrat;
+	font-size: 18px;
+	color: #818286;
+}
+#namebutton{
+	width: 40%;
+	height: 40px;
+
+}
+
+#contactp{
+	width: 100%;
+	height: 500px;
+}
+.contact-div{
+	size: 40px;
+}
+
+
+
+
+/*ABOUT US part*/
+#aboutus{
+	width: 100%;
+	height: 1690px;
+}
+.about{
+	width: 50%;
+	height: 520px;
+	float: left;
+	text-align: left;
+
+}
+.about-h1-text{
+	color: #818286;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+.about-p-text{
+	color: #818286;
+	padding: 20px 80px 50px 60px;
+	font-size: 16px;
+	font-family: Ubuntu, sans-serif;
+	text-align: left;
+	line-height: 30px;
+}
+/*PRODUCTS part*/
+#product{
+	display: inline-block;
+	width: 100%;
+	height: 2600px;
+	text-align: left;
+
+}
+.product-class{
+	width: 50%;
+	height: 520px;
+	float: left;
+}
+
+
+/*RESOURCES*/
+.blog-background-image{
+	background-image: url("../Images/Access-Blog-Header.jpg");
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+}
+.blog-h2{
+	font-family: Montserrat;
+	font-size: 72px;
+	color: white;
+	text-align: bottom;
+}
+.continue-reading{
+	text-decoration: none;
+	color: #f68933;
+	font-family: Montserrat;
+	font-size: 17px;
+	margin-left: 70px;
+}
+.r-hr{
+	margin-left: 70px;
+}
+
+.resource-p{
+	font-size: 18px;
+	color: #818286;
+	margin-left: 70px;
+}
+.main-res{
+	display: inline-block;
+}
+.first-res{
+	width: 64%;
+	float: left;
+}
+.second-res{
+	width: 34%;
+	float: left;
+}
+.second-res a{
+	text-decoration: none;
+}
+.ullist li{
+	text-decoration: none;
+}
+.resource-images{
+	width: 80%;
+	margin: 20px 70px;
+}
+.resource-image-p{
+	margin-left: 70px;
+}
+.LeftandRight ul li{
+	display: inline-block;
+
+}
+.LeftandRight a{
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 30px;
+	padding: 10px 20px 10px 20px;
+	color: #f68933;
+}
+
+
+#Galleries{
+	height: 1000px;
+}
+.resource-h2{
+	font-family: Montserrat;
+	font-size: 32px;
+	text-align: left;
+	color: #818286;
+	margin-left: 70px;
+
+}
+
+
+
+
+/*DEALERS PART*/
+.dealers-h1-text{
+	font-family: Montserrat;
+	font-size: 32px;
+	text-align: left;
+	color: #818286;
+	line-height: 50px;
+
+
+}
+.map-text{
+	font-family: Montserrat;
+	font-size: 32px;
+	text-align: center;
+	color: #818286;
+}
+.map-image{
+	width: 100%;
+	text-align: center;
+
+}
+#dealer{
+	display: inline-block;
+}
+
+#girl{
+	float: left;
+	width: 49%;
+}
+
+
+
+/*PORTFOLIO part*/
+#gallery-h1-text{
+	font-family: Montserrat;
+	font-size: 68px;
+	text-align: center;
+	color: #818286;
+	line-height: 71px;
+}
+#gallery-images{
+	
+	width: 90%;
+	height: 1800px;
+	margin: 30px;
+}
+.gal-images{
+	width: 32%;
+	float: left;
+}
